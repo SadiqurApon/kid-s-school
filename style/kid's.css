@@ -1,0 +1,82 @@
+.work-sans-quick {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    /* font-weight: 400px; */
+    font-style: normal;
+}
+nav li{
+    list-style: none;
+    margin-right: 32px;
+}
+nav a{
+    text-decoration: none;
+}
+.space{
+    justify-content: space-around;
+}
+.btn-primary{
+    font-size: 1.3rem;
+    font-weight: 600;    
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+}
+.btn-1{
+    padding: 10px 60px;
+    background-color: #FEA301;
+}
+.display-flex{
+    display: flex;
+}
+.school{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.color-0{
+    color: #111111;
+}
+.color-1{
+    color: #FEA301;
+}
+.color-2{
+    color: #01ACFD;
+}
+.color-3{
+    color: #05D4DF;
+}
+.color-4{
+    color: #5D58EF;
+}
+.home{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.about, .facialiti, .admission{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* Banner related */
+.banner-container{
+    width: 1160px;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.banner-description{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+
+
+
+.btn-2{
+    padding: 10px 47px;
+    background-color: #111111;
+}
