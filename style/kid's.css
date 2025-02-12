@@ -276,8 +276,21 @@ footer{
     .small-card-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+    
+    .small-card{
+        margin-right: 5px;
+    }
+    .school{
+        display: none;
+    }
+    .decoration{
+        display: none;
+    }
+    footer{
         width: 100%;
     }
+    
 }
     
     
