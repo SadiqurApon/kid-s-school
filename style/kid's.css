@@ -4,6 +4,9 @@
     /* font-weight: 400px; */
     font-style: normal;
 }
+body{
+    background-image: url(assets/bg.png);
+}
 nav li{
     list-style: none;
     margin-right: 32px;
@@ -47,6 +50,9 @@ nav a{
 .color-4{
     color: #5D58EF;
 }
+.color-5{
+    color: #FFFFFF;
+}
 .home{
     font-weight: 700;
     font-size: 1.1rem;
@@ -58,25 +64,220 @@ nav a{
 
 /* Banner related */
 .banner-container{
-    width: 1160px;
-    height: 575px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.banner{
+    width: 640px;
 }
 .banner-heading{
     font-weight: 700;
     font-size: 3.5rem;
 }
+
 .banner-description{
     font-weight: 300;
     font-size: 1.1rem;
 }
 
-
-
-
 .btn-2{
     padding: 10px 47px;
     background-color: #111111;
 }
+/* Curriculum related */
+
+.curriculum-head{
+    font-weight: 700;
+    font-size: 2.9rem;
+    color: #000000;
+    text-align: center;
+}
+
+.curriculum-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.curriculum{
+    width: 360px;
+    text-align: center;
+    border-radius: 18px;
+    padding-top: 50px;
+}
+.curriculum-color-1{
+    background-image: linear-gradient(#DEF5FF, #FFFFFF);
+}
+.curriculum-color-2{
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+}
+.curriculum-color-3{
+    background-image: linear-gradient(#F2E8FF ,#FFFFFF);
+}
+.curriculum-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #202020;
+}
+.curriculum-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #808080;
+}
+
+.curriculum-btn{
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* Story related */
+.story-container{
+    display: flex;
+    justify-content: center;
+}
+.big-image{
+    position: relative;
+    border-top-right-radius: 16px ;
+    border-top-left-radius: 16px;
+}
+.big-card-btn-common{
+    font-weight: 300;
+    font-size: 1rem;
+    position: absolute;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 47px;
+}
+.big-card-btn{
+    background-color: #3CD8E8;
+    margin-top: -30px;
+    margin-left: 40px;
+    padding: 15px 20px;
+}
+.big-card-title{
+    width: 400px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000000;
+}
+.big-card-description{
+    width: 430px;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #666666;
+}
+.small-card{
+    margin-left: 20px;
+}
+.small-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.small-card-btn{
+    background-color: #95B226;
+    padding: 9px 14px;
+}
+.small-card-title{
+    padding: 37px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.small-image{
+    position: relative;
+    border-top-right-radius: 16px ;
+    border-top-left-radius: 16px;
+}
+.small-card-btn{
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+
+/* footer part */
+footer{
+    background-color: #01ACFD;
+}
+.edu-title{
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.edu-description{
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.scl-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.footer-container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.ul-list{
+    list-style: none;
+}
+.footer-list{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.school{
+    justify-content: start;
+}
+.logo-edu{
+    width: 400px;
+}
+.view-btn{
+    padding: 10px 60px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    background-color: #000000;
+    
+}
+.last-btn{
+    text-align: center;
+}
+@media screen and (max-width:576px) {
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner{
+        width: 100%;
+        text-align: center;
+    }
+    .img{
+        margin: 25px;
+        width: 100%;
+    }
+    .curriculum-head{
+        font-size: 1.5rem;
+    }
+    .curriculum-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .curriculum{
+        margin: 50px;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .big-card{
+        display: none;
+    }
+    .small-card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+}
+    
+    
